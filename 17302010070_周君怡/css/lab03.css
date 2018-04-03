@@ -1,0 +1,68 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2;
+	padding-left: 5%;
+	padding-right: 5%;
+	background-color: #E8EAF6;
+}
+
+ul {
+	list-style: square;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+  }
+
+
+
+p{font-family: 'Times New Roman',sans-serif;}
+header,footer{background-color: #1A237E; color: white;}
+h1{font-size: 1.5em;}
+h2{font-size: 1.2em; text-transform: uppercase;}
+hgroup p,p.cr{font-style: italic;}
+nav{background-color: #3F51B5;}
+li{display: inline;}
+h1,h2,footer p span,nav{font-family: 'Calibri',serif; color:white; }
+a{text-decoration: underline; color: #00B0FF;}
+article a{font-weight: bolder;}
+figcaption{font-family: 'Times New Roman',sans-serif; color: #7990A3; font-style: italic; background-color: #C5CAE9;}
+h2{background-color: #7986CB;}
+p.review{font-style: italic; color: #C5CAE9;}
+#thirdbody time{color: #F5A2C1;}
+
+
+
+header{padding: 1em;}
+nav{padding-left: 0.7em; padding-top: 0.3em; padding-bottom: 0.3em; margin-bottom: 0.5em;}
+nav a:hover{cursor: pointer; background-color: #F50057; color: white;}
+nav a{padding: 0.3em;}
+.middle{padding-left: 0.5em;padding-right: 0.5em; padding-top: 0.5em; padding-bottom: 0.5em; margin-bottom: 0.5em; background-color: white;}
+h2{padding: 1em;}
+#image{width: 100%;}
+figure{font-size: 0;}
+figcaption{font-size: 16px; padding-left: 1em; padding-top: 0.5em; padding-bottom: 0.5em;}
+#explain{padding-top: 0.5em; padding-left: 1em; padding-right: 1em; padding-bottom: 1em;}
+#pic{padding-right: 1em; padding-bottom: 0.5em; text-align:right;}
+#firstbody{margin-bottom: 0.5em; background-color: white;border-style: solid; border-width: thin; border-color: #C5CAE9;}
+#secondbody{margin-bottom: 0.5em; background-color: white;border-style: solid; border-width: thin; border-color: #C5CAE9;}
+#photo{display: block; margin-bottom: -4px;}
+p.review{padding-top: 0.5em; padding-bottom: 0.5em; padding-left: 1em;}
+p.views{ padding-bottom: 0.5em;}
+#thirdbody{padding-bottom: 1em; background-color: white;border-style: solid; border-width: thin; border-color: #C5CAE9;}
+p.views{margin-left: 1em; margin-right: 1em; border-bottom-style: solid; border-bottom-width: thin; border-bottom-color: #999999;}
+
+footer{padding-left: 1em; padding-top: 1.3em; padding-bottom: 0.7em;}
+footer p{padding-bottom: 0.6em;}
