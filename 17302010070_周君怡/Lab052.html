@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Lab 04</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
+</head>
+<body class="container">
+
+<header class="container">
+    <nav class="collapse navbar navbar-collapse navbar-expend-md navbar-light row">
+        <div class="col-sm-auto text-center">
+            <h1 class="text-center">Share Your Travels</h1>
+            <h4 class="text-center font-italic">
+                <small>Let us know where you've been</small>
+            </h4>
+        </div>
+        <ul class="nav collapse navbar-collapse navbar-nav nav-fill justify-content-end navbar-expand-lg  col-md-6 offset-md-1">
+            <li class="nav-item"><a class="nav-link" href="Lab051.html">Gallery</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Feeling Lucky</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">User</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+<main class="card container">
+    <div class="card-body">
+        <form action="http://www.randyconnolly.com/tests/process.php" method="post">
+            <legend>photo details</legend>
+            <div class="form-group">
+                <label>Title</label>
+                <input type="text" class="form-control" placeholder="Give your photo a descriptive name"/>
+            </div>
+
+            <div class="form-group">
+                <label for="description">Description</label>
+                <textarea id="description"
+                          class="form-control" placeholder="Adding a rich description will help with search results" >
+                </textarea>
+            </div>
+
+
+            <div class="form-group">
+                <label>Continent</label>
+                <select class="form-control input-lg" name="continent">
+                    <option value="">Choose continent</option>
+                    <option value="Africa">Africa</option>
+                    <option value="Antarctica">Antarctica</option>
+                    <option value="Asia">Asia</option>
+                    <option value="Europe">Europe</option>
+                    <option value="North America">North America</option>
+                    <option value="Oceania">Oceania</option>
+                    <option value="South America">South America</option>
+                </select>
+            </div>
+
+
+            <div class="form-group">
+
+                <label>Country</label><br/>
+                <select class="form-control input-lg" name="country">
+                    <option value="">Choose country</option>
+                    <option value="China">China</option>
+                    <option value="America">America</option>
+                    <option value="British">British</option>
+                    <option value="France">France</option>
+                    <option value="Japan">Japan</option>
+                    <option value="Korea">Korea</option>
+                    <option value="Peru">Peru</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>City</label><br />
+                <input type="text" class="form-control" name="city"/>
+            </div>
+            <div class="form-group">
+                <div class="form-check">
+                    <label class="form-check-label">Copyright?</label><br/>
+                    <input type="radio" class="form-check-input" name="copyright" value="All rights reserved"/>
+                    All rights reserved<br/>
+                    <input type="radio" class="form-check-input" checked="checked" name="copyright"
+                           value="Creative Commons"/>
+                    Creative Commons
+                </div>
+            </div>
+            <div class="form-group">
+                <p>Creative Commons Types</p>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" name="cctype" value="Attribution"
+                           id="creative commons types"/>
+                    <label class="form-check-label" for="creative commons types">Attribution</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" name="cctype" value="Noncommercial"/>
+                    <label class="form-check-label" for="creative commons types">Noncommercial</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" name="cctype" value="NoDerivativeWorks"/>
+                    <label class="form-check-label" for="creative commons types">No Derivative Works</label>
+
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="accept" value="accept">
+                    <label class="form-check-label">I accept the software license</label>
+                </div>
+            </div>
+
+            <div class="form-row">
+            <div class="form-group col-md-6">
+                <label>Rate this photo:</label>
+                <input class="form-control" type="number" name="rate"/></div>
+            <div class="form-group col-md-6">
+                <label>Color Collection:</label>
+                <input class="form-control" type="color" name="color"/></div>
+            </div>
+
+            <div class="form-row">
+            <div class="form-group col-md-6">
+                <label>Date Taken:</label>
+                <input class="form-control" type="text" name="date"/></div>
+            <div class="form-group col-md-6">
+                <label>Time Taken:</label>
+                <input class="form-control" type="text" name="time"/></div>
+            </div>
+            <div class="form-group">
+                <div class="btn-group">
+                    <input type="submit" class="btn btn-secondary" value="Submit"/>
+                    <input type="reset" class="btn btn-secondary" value="Clear"/>
+                </div>
+            </div>
+        </form>
+    </div>
+</main>
+
+
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+</body>
+</html>
