@@ -1,0 +1,41 @@
+form{
+    margin: 0 auto;
+    text-align: center;
+}
+
+select,button{
+    text-align: center;
+    width: 300px;
+    margin: 0.5em;
+}
+
+#Table{
+    width: 100%;
+    child-align: middle;
+}
+
+table thead{
+    background-color: grey;
+    color: whitesmoke;
+}
+
+table td{
+    text-align: center;
+    width: 10em;
+    padding: 0 0.5em;
+    margin: 0 1em;
+}
+
+table tbody tr:nth-child(even){
+    background-color: lightgrey;
+}
+
+button{
+    display: none;
+    margin: 0.5em auto;
+    text-align: center;
+}
+
+#Order input{
+    margin: 0.5em;
+}
